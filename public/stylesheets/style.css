@@ -37,6 +37,20 @@
   li {
     font-size: 1.6rem;
   }
+
+  #login {
+    color: var(--tertiary);
+    margin: 5px 3px 20px;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+
+  #login:hover {
+    background-color: #333;
+    border-radius: .3rem;
+    transform: translate(0,0);
+    box-shadow: 2px 2px var(--grey);
+  }
   
   form {
     display: flex;
@@ -68,11 +82,38 @@
     border-top: 5px solid var(--primary);
   }
   
+  label {
+    color: var(--secondary);
+    font-size: 2.6rem;
+  }
+
+  #dashboard {
+    color: var(--secondary);
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
   .page-title {
     color: var(--primary);
     margin-bottom: 5px;
     margin-top: 0;
     font-size: 4.5rem;
+    text-decoration: none;
+  }
+
+  .page-title {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .page-title:hover, .page-title:focus, .page-title:active {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px);
   }
   
   .page-content {
