@@ -1,3 +1,4 @@
+/*==========================Elements==============================*/
 * {
     box-sizing: border-box;
   }
@@ -37,20 +38,6 @@
   li {
     font-size: 1.6rem;
   }
-
-  #login {
-    color: var(--tertiary);
-    margin: 5px 3px 20px;
-    font-size: 1.6rem;
-    text-decoration: none;
-  }
-
-  #login:hover {
-    background-color: #333;
-    border-radius: .3rem;
-    transform: translate(0,0);
-    box-shadow: 2px 2px var(--grey);
-  }
   
   form {
     display: flex;
@@ -86,12 +73,28 @@
     color: var(--secondary);
     font-size: 2.6rem;
   }
+/*==========================ID's===========================*/
+  #login {
+    color: var(--tertiary);
+    margin: 5px 3px 20px;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+
+  #login:hover {
+    background-color: #333;
+    border-radius: .3rem;
+    transform: translate(0,0);
+    box-shadow: 2px 2px var(--grey);
+  }
 
   #dashboard {
     color: var(--secondary);
     font-size: 1.5rem;
     padding-left: 10px;
   }
+
+/*==========================Classes==============================*/
   .page-title {
     color: var(--primary);
     margin-bottom: 5px;
@@ -257,6 +260,7 @@
     font-size: 2rem;
   }
   
+  /* ===================Responsiveness =======================*/
   @media screen and (max-width: 980px) {
     form .form-group {
       flex: 1 100%;
