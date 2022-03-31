@@ -88,6 +88,21 @@
     box-shadow: 2px 2px var(--grey);
   }
 
+  #logout {
+    color: var(--tertiary);
+    margin: 5px 3px 20px;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+
+  #logout:hover {
+    background-color: #333;
+    border-radius: .3rem;
+    transform: translate(0,0);
+    box-shadow: 2px 2px var(--grey);
+  }
+
+
   #dashboard {
     color: var(--secondary);
     font-size: 1.5rem;

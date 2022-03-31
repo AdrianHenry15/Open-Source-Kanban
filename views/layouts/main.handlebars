@@ -17,7 +17,7 @@
             {{#if loggedIn}}
             <a id="login" href="/">Home</a>
             <a id="login" href="/dashboard">Dashboard</a>
-            <a id="login" href="/login">Logout</a>
+            <a id="logout" href="/login">Logout</a>
             {{else}}
             <a id="login" href="/login">Login</a>
             <a id="login" href="/signup">Sign-Up</a>
@@ -26,6 +26,7 @@
         <h1 class="app-title">
             <a class="page-title" id="dashboard-link" href="/"> Open Source Kanban </a>
         </h1>
+        {{#if loggedIn}}
         <p>Click the button below to add your idea!</p>
         <form id="task-form">
             <div class="form-group">
@@ -38,6 +39,9 @@
                 <button class="btn" id="save-task" type="submit">Add Your Idea</button>
             </div>
         </form>
+        {{else}}
+        <p>Welcome to Open Source Kanban</p>
+        {{/if}}
     </header>
 
     <main>
