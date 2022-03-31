@@ -15,9 +15,9 @@
     <header class="hero">
         <nav>
             {{#if loggedIn}}
-            <a id="home" href="/">Home</a>
-            <a id="home" href="/dashboard">Dashboard</a>
-            <a id="logout" href="/login">Logout</a>
+            <a id="login" href="/">Home</a>
+            <a id="login" href="/dashboard">Dashboard</a>
+            <a id="login" href="/login">Logout</a>
             {{else}}
             <a id="login" href="/login">Login</a>
             <a id="login" href="/signup">Sign-Up</a>
@@ -26,6 +26,18 @@
         <h1 class="app-title">
             <a class="page-title" id="dashboard-link" href="/"> Open Source Kanban </a>
         </h1>
+        <p>Click the button below to add a new task!</p>
+        <form id="task-form">
+            <div class="form-group">
+                <input type="text" name="task-title" placeholder="Idea Title" />
+            </div>
+            <div class="form-group">
+                <input type="text" name="task-content" placeholder="What Is Your Idea?" />
+            </div>
+            <div class="form-group">
+                <button class="btn" id="save-task" type="submit">Add Task</button>
+            </div>
+        </form>
     </header>
 
     <main>
@@ -37,6 +49,7 @@
     </div>
     {{#if loggedIn}}
     <script src="/javascript/logout.js"></script>
+    <script src="/javascript/drag-drop.js"></script>
     {{/if}}
 </body>
 
