@@ -10,7 +10,7 @@
             <h4>Content</h4>
             <input class="form-input" name="post-text" type="text" value="{{post.post_text}}" />
         </div>
-        <div>
+        <div class="task-list">
             by you on {{format_date post.created_at}}
             |
             <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
@@ -35,4 +35,3 @@
 <script src="/javascript/edit-post.js"></script>
 <script src="/javascript/delete-post.js"></script>
 <script src="/javascript/comment.js"></script>
-<script src="/javascript/dynamic.js"></script>

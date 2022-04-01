@@ -115,6 +115,12 @@ li {
 }
 
 /*==========================Classes==============================*/
+.text-card {
+  font-size: 1.6rem;
+  color: var(--grey);
+  margin: 5px 0 20px;
+}
+
 .page-title {
   color: var(--primary);
   margin-bottom: 5px;
@@ -200,6 +206,14 @@ li {
 .task-actions button,
 .task-actions select {
   flex: 1;
+}
+
+.sdc-btn {
+  font-size: 1.4rem;
+  padding: 5px 7px;
+  margin: 3px;
+  background: var(--secondary);
+  color: #fff;
 }
 
 .btn {

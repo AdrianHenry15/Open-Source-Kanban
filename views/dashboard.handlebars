@@ -15,11 +15,11 @@
 </section>
 
 {{#if posts.length}}
-<section>
+<section class="task-list">
     <h2>Your Posts</h2>
-    <ol>
+    <ol class="task-list">
         {{#each posts as |post|}}
-        <li>
+        <li class="task-list">
             {{> post-info post}}
             <a href="/dashboard/edit/{{post.id}}" id="dashboard">Edit post</a>
         </li>
@@ -29,4 +29,3 @@
 {{/if}}
 
 <script src="/javascript/add-post.js"></script>
-<script src="/javascript/dynamic.js"></script>
