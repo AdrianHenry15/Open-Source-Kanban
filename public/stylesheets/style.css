@@ -67,11 +67,26 @@
     font-size: 2.4rem;
     padding: 20px;
     border-top: 5px solid var(--primary);
+    
   }
   
   label {
     color: var(--secondary);
     font-size: 2.6rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+
+  ol {
+      list-style: none;
+  }
+
+  li{
+    list-style: none;
+    
   }
 /*==========================ID's===========================*/
   #login {
@@ -141,6 +156,7 @@
     justify-content: center;
     margin: 25px auto;
     width: 95%;
+    padding: 20px 0;
   }
   
   .task-list-wrapper {
@@ -160,6 +176,7 @@
     background: rgb(196, 196, 196);
     border-radius: 12px;
     border: 2px solid var(--grey);
+    margin-top: 10px;
   }
   
   .task-item {

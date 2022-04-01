@@ -1,12 +1,12 @@
 <section class="page-content" id="page-content">
     <div class="task-list-wrapper">
         <h2 class="list-title" id="tasks-to-do">New Ideas</h2>
-        <ol>
+        <ul>
             {{#each posts as |post|}}
             <li>
                  {{> post-info post }}
             </li>
-        </ol>
+        </ul>
         {{/each}}
     </div>
     <div class="task-list-wrapper">
@@ -15,6 +15,6 @@
     </div>
     <div class="task-list-wrapper">
         <h2 class="list-title" id="tasks-completed">Old Ideas</h2>
-        <ul>0</ul>
+        <ul></ul>
     </div>
 </section>
