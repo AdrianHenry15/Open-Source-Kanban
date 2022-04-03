@@ -15,7 +15,7 @@
 </section>
 
 {{#if posts.length}}
-<section class="task-list-wrapper">
+<section>
     <h2>Your Posts</h2>
     <ol>
         {{#each posts as |post|}}
@@ -23,8 +23,8 @@
             {{> post-info post}}
             <a href="/dashboard/edit/{{post.id}}" id="dashboard">Edit post</a>
         </li>
+        {{/each}}
     </ol>
-    {{/each}}
 </section>
 {{/if}}
 

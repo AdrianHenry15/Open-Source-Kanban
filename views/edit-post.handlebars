@@ -5,12 +5,12 @@
     </h2>
     <form id="edit-post-form">
         <div>
-            <h2 class="">Title</h2>
+            <h4>Title</h4>
             <input class="form-input" name="post-title" type="text" value="{{post.title}}" />
-            <h2>Content</h2>
+            <h4>Content</h4>
             <input class="form-input" name="post-text" type="text" value="{{post.post_text}}" />
         </div>
-        <div class="task-list">
+        <div>
             by you on {{format_date post.created_at}}
             |
             <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
@@ -20,10 +20,10 @@
     </form>
 </article>
 
-<h2>Comment</h2>
+<h4>Comment</h4>
 <form class="comment-form">
     <div>
-        <input class="form-input" name="comment-body"></input>
+        <textarea class="form-input" name="comment-body"></textarea>
     </div>
 
     <div>
