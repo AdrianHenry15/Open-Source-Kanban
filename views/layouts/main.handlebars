@@ -36,7 +36,7 @@
                 <input type="text" name="task-content" placeholder="What Is Your Idea?" />
             </div>
             <div class="form-group">
-                <button class="btn" id="save-task" type="submit">Add Your Idea</button>
+                <button class="btn create-button" id="save-task" type="submit">Add Your Idea</button>
             </div>
         </form>
         {{else}}
@@ -44,11 +44,21 @@
         {{/if}}
     </header>
 
-    <main>
+    <main class="main">
         {{{ body }}}
     </main>
+    <div class="footer-wrapper"></div>
     <footer>
+        <div>
+            <span>
+                © Copyright - All rights reserved
+            </span>
+        </div>
+        <div class="end">
         Thanks for visiting!
+
+        </div>
+        
     </footer>
     </div>
     {{#if loggedIn}}

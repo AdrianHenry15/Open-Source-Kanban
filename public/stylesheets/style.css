@@ -67,7 +67,16 @@
     font-size: 2.4rem;
     padding: 20px;
     border-top: 5px solid var(--primary);
+    margin-bottom: -300px;
     
+  }
+
+  .footer-wrapper{
+    margin-top: 407px;
+  }
+
+  .footer-wrapper-login{
+    margin-top: 147px;
   }
   
   label {
@@ -88,6 +97,10 @@
     list-style: none;
     
   }
+  .end{
+    margin-top:5px;
+  }
+
 /*==========================ID's===========================*/
   #login {
     color: var(--tertiary);
@@ -122,6 +135,7 @@
     color: var(--secondary);
     font-size: 1.5rem;
     padding-left: 10px;
+    
   }
 
 /*==========================Classes==============================*/
@@ -291,6 +305,55 @@
     font-weight: normal;
     font-size: 2rem;
   }
+
+  .new-post-dash {
+    margin-left: 45px;
+    
+  }
+
+  .create-button {
+    padding-left: 15px;
+    margin-left: 10px;
+    color: #fff;
+  }
+
+  .title-form-dash {
+    margin-right: 10px;
+  }
+
+  .create-header{
+    margin-left: 4px;
+  }
+
+  .post-header{
+    margin-left: 45px;
+  }
+
+  .submit-btn{
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+
+  .single-text{
+    margin-left: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+  }
+
+  .login-form{
+  
+    justify-content: center
+  }
+
+  .signup-form{
+  
+    justify-content: center
+  }
+
+
+
   
   /* ===================Responsiveness =======================*/
   @media screen and (max-width: 980px) {
