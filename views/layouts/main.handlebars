@@ -8,17 +8,15 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="/stylesheets/style.css" />
-    {{!--
-    <link rel="stylesheet" href="/stylesheets/style2.css" /> --}}
-    <title>OSK</title>
+    <title>Open Source Kanban</title>
 </head>
 
-<body class="wrapper">
+<body class="wrapper flex-column min-100-vh">
     <header class="hero">
         <nav>
             {{#if loggedIn}}
-            <a id="login" href="/">Home</a>
-            <a id="login" href="/dashboard"> Solo Dash</a>
+            <a id="home" href="/">Home</a>
+            <a id="dashboard" href="/dashboard">Dashboard</a>
             <a id="logout" href="/login">Logout</a>
             {{else}}
             <a id="login" href="/login">Login</a>
@@ -26,14 +24,8 @@
             {{/if}}
         </nav>
         <h1 class="app-title">
-            <a class="page-title" id="dashboard-link" href="/"> Open Source Kanban </a>
+            <a id="dashboard-link" href="/"> Open Source Kanban</a>
         </h1>
-        {{#if loggedIn}}
-        <p>All of Your Posts!</p>
-
-        {{else}}
-        <p>Welcome to Open Source Kanban</p>
-        {{/if}}
     </header>
 
     <main>
