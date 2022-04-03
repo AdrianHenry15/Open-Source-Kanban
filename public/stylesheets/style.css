@@ -21,6 +21,14 @@ body {
   font-size: 16px;
 }
 
+.post a{
+  color: #000000
+}
+
+#dashboard {
+  color: var(--dark);
+}
+
 h1,
 h2,
 h3,
@@ -232,13 +240,21 @@ form {
 #logout,
 #sign-up,
 #home,
-#dashboard,
-#edit-post {
+#dashboard{
   display: inline;
   padding: 4px 40px 4px 40px;
   font-size: 1.2rem;
   text-decoration: none;
   color: var(--secondary);
+
+}
+
+#edit-post {
+  display: inline;
+  padding: 4px 40px 4px 40px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000000;
 
 }
 

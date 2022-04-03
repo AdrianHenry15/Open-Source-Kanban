@@ -21,7 +21,10 @@
         {{#each posts as |post|}}
         <li>
             {{> post-info post}}
+            <div id="edit-contianer">
+
             <a href="/dashboard/edit/{{post.id}}" id="dashboard">Edit post</a>
+            </div>
         </li>
         {{/each}}
     </ol>
