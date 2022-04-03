@@ -15,17 +15,24 @@
     <header class="hero">
         <nav>
             {{#if loggedIn}}
-            <a id="home" href="/">Home</a>
-            <a id="dashboard" href="/dashboard">Dashboard</a>
-            <a id="logout" href="/login">Logout</a>
+            <a class="hvr-float" id="home" href="/">Home</a>
+            <a class="hvr-float" id="dashboard" href="/dashboard">Dashboard</a>
+            <a class="hvr-float" id="logout" href="/login">Logout</a>
             {{else}}
-            <a id="login" href="/login">Login</a>
-            <a id="login" href="/signup">Sign-Up</a>
+            <a class="hvr-float" id="login" href="/login">Login</a>
+            <a class="hvr-float" id="login" href="/signup">Sign-Up</a>
             {{/if}}
         </nav>
-        <h1 class="app-title">
-            <a id="dashboard-link" href="/"> Open Source Kanban</a>
+        <h1 class="app-title hvr-skew">
+            <a id="osk-link" href="/"> Open Source Kanban</a>
         </h1>
+
+        {{#if loggedIn}}
+        <p class="hvr-hang">Free Your Mind</p>
+        {{else}}
+        <p class="hvr-hang">Zero Limits In An Open Mind</p>
+        {{/if}}
+
     </header>
 
     <main class="main">
