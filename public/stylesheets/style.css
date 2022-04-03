@@ -147,6 +147,13 @@ li{
   text-decoration: none;
 }
 
+.card-header {
+  color: var(--primary);
+  background-color: var(--dark);
+  padding: 1%;
+  border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+}
+
 .page-title {
   display: inline-block;
   vertical-align: middle;
@@ -190,7 +197,7 @@ li{
   background: rgb(196, 196, 196);
   border-radius: 12px;
   border: 2px solid var(--grey);
-  margin-top: 10px;
+  margin-top:10px;
 }
 
 .task-item {
