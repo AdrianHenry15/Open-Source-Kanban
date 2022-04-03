@@ -29,6 +29,14 @@ body {
   color: var(--dark);
 }
 
+.signup-form{
+  margin-top: 90px;
+}
+
+.signup-footer{
+
+  margin-top: 96px;
+}
 h1,
 h2,
 h3,
