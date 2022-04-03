@@ -1,20 +1,23 @@
 <section class="page-content" id="page-content">
     <div class="task-list-wrapper card">
         <h2 class="list-title" id="tasks-to-do">New Ideas</h2>
-        <ul class="task-list list-group">
+        <ul class="task-list">
             {{#each posts as |post|}}
             <li>
                 {{> post-info post }}
             </li>
+            {{/each}}
         </ul>
-        {{/each}}
+
     </div>
     <div class="task-list-wrapper">
         <h2 class="list-title" id="tasks-in-progress">Lets Collaborate</h2>
-        <ul class="task-list list-group"></ul>
+        <ul class="task-list">
+
+        </ul>
     </div>
     <div class="task-list-wrapper">
         <h2 class="list-title">Old Ideas</h2>
-        <ul class="task-list list-group"></ul>
+        <ul class="task-list"></ul>
     </div>
 </section>
