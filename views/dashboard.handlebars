@@ -17,9 +17,9 @@
 {{#if posts.length}}
 <section class="task-list">
     <h2>Your Posts</h2>
-    <ol class="task-list">
+    <ol>
         {{#each posts as |post|}}
-        <li class="task-list">
+        <li>
             {{> post-info post}}
             <a href="/dashboard/edit/{{post.id}}" id="dashboard">Edit post</a>
         </li>
@@ -29,3 +29,9 @@
 {{/if}}
 
 <script src="/javascript/add-post.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-ui-touch-punch@0.2.3/jquery.ui.touch-punch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>

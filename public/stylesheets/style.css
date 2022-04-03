@@ -67,6 +67,16 @@ footer {
   font-size: 2.4rem;
   padding: 20px;
   border-top: 5px solid var(--primary);
+  margin-bottom: -300px;
+
+}
+
+.footer-wrapper {
+  margin-top: 407px;
+}
+
+.footer-wrapper-login {
+  margin-top: 147px;
 }
 
 label {
@@ -74,8 +84,22 @@ label {
   font-size: 2.6rem;
 }
 
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+ol {
+  list-style: none;
+}
+
 li {
   list-style: none;
+
+}
+
+.end {
+  margin-top: 5px;
 }
 
 /*==========================ID's===========================*/
@@ -112,21 +136,23 @@ li {
   color: var(--secondary);
   font-size: 1.5rem;
   padding-left: 10px;
+
 }
 
 /*==========================Classes==============================*/
-.text-card {
-  font-size: 1.6rem;
-  color: var(--grey);
-  margin: 5px 0 20px;
-}
-
 .page-title {
   color: var(--primary);
   margin-bottom: 5px;
   margin-top: 0;
   font-size: 4.5rem;
   text-decoration: none;
+}
+
+.card-header {
+  color: var(--primary);
+  background-color: var(--dark);
+  padding: 1%;
+  border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
 }
 
 .page-title {
@@ -155,6 +181,7 @@ li {
   justify-content: center;
   margin: 25px auto;
   width: 95%;
+  padding: 20px 0;
 }
 
 .task-list-wrapper {
@@ -174,6 +201,7 @@ li {
   background: rgb(196, 196, 196);
   border-radius: 12px;
   border: 2px solid var(--grey);
+  margin-top: 10px;
 }
 
 .task-item {
@@ -206,14 +234,6 @@ li {
 .task-actions button,
 .task-actions select {
   flex: 1;
-}
-
-.sdc-btn {
-  font-size: 1.4rem;
-  padding: 5px 7px;
-  margin: 3px;
-  background: var(--secondary);
-  color: #fff;
 }
 
 .btn {
@@ -299,6 +319,55 @@ li {
   font-weight: normal;
   font-size: 2rem;
 }
+
+.new-post-dash {
+  margin-left: 45px;
+
+}
+
+.create-button {
+  padding-left: 15px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.title-form-dash {
+  margin-right: 10px;
+}
+
+.create-header {
+  margin-left: 4px;
+}
+
+.post-header {
+  margin-left: 45px;
+}
+
+.submit-btn {
+  color: #fff;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.single-text {
+  margin-left: 15px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  border-radius: 8px;
+}
+
+.login-form {
+
+  justify-content: center
+}
+
+.signup-form {
+
+  justify-content: center
+}
+
+
+
 
 /* ===================Responsiveness =======================*/
 @media screen and (max-width: 980px) {

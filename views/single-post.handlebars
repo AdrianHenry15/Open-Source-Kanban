@@ -3,11 +3,11 @@
 {{#if loggedIn}}
 <form class="comment-form">
     <div>
-        <input class="form-input" name="comment-body"></input>
+        <input class="form-input single-text" name="comment-body" placeholder="Comment..."></input>
     </div>
 
     <div>
-        <button class="btn" type="submit">add comment</button>
+        <button class="btn submit-btn" type="submit">add comment</button>
     </div>
 </form>
 
@@ -15,6 +15,7 @@
 {{/if}}
 
 {{> comments post.comments}}
+<div class="footer-wrapper"></div>
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>
