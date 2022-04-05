@@ -13,7 +13,7 @@ const exphbs = require('express-handlebars');
 const app = express();
 
 // define port for server
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3001;
 
 // sequelize connection to db
 const sequelize = require('./config/connection');
@@ -59,5 +59,5 @@ app.use(require('./controllers/'));
 // force: true to reset db and clear all values, updating any new relationships
 // force: false to maintain data - aka normal operation
 sequelize.sync({ force: false }).then(() => {
-    app.listen(PORT, () => console.log('Now listening'));
+    app.listen(PORT, () => console.log('Now listening on port 3001'));
 });
