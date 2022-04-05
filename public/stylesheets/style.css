@@ -1,17 +1,9 @@
 :root {
-<<<<<<< HEAD
   --primary: #e5e5e5;
   --secondary: #fff;
   --tertiary: #935454;
   --light-dark: #b2a8a6;
   --dark:#2a1b18;
-=======
-  --primary: #B7D5D4;
-  --secondary: #488286;
-  --tertiary: #373E40;
-  --light-dark: #305252;
-  --dark: #25373b;
->>>>>>> 04710a3866bcf7cc2bdc95a4b11df7e5bc78419d
   --border-radius: .3rem;
 }
 
@@ -43,7 +35,6 @@ body {
   font-size: 16px;
 }
 
-<<<<<<< HEAD
 .post a{
   color: #000000
 }
@@ -63,19 +54,6 @@ body {
 
 .login-footer-div{
   margin-top: 130PX;
-=======
-nav {
-  display: flex;
-  flex: auto;
-  justify-content: space-between;
-  padding: 15px;
-  margin-top: -25px;
-}
-
-header p {
-  position: relative;
-  left: 75%;
->>>>>>> 04710a3866bcf7cc2bdc95a4b11df7e5bc78419d
 }
 
 h1,

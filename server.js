@@ -13,7 +13,7 @@ const exphbs = require('express-handlebars');
 const app = express();
 
 // define port for server
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3001;
 
 // sequelize connection to db
 const sequelize = require('./config/connection');
