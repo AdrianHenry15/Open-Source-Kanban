@@ -22,8 +22,9 @@ body {
   font-size: 16px;
 }
 
-nav {
-  display: flex;
+/* nav {
+  display: block;
+  text-align: center;
   flex: auto;
   justify-content: space-between;
   padding: 15px;
@@ -33,7 +34,7 @@ nav {
 header p {
   position: relative;
   left: 75%;
-}
+} */
 
 h1,
 h2,
