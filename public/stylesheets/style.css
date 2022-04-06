@@ -1,28 +1,15 @@
 :root {
-  --primary: #e5e5e5;
-  --secondary: #fff;
-  --tertiary: #935454;
-  --light-dark: #b2a8a6;
-  --dark:#2a1b18;
+  --primary: #B7D5D4;
+  --secondary: #488286;
+  --tertiary: #373E40;
+  --light-dark: #305252;
+  --dark: #25373b;
   --border-radius: .3rem;
 }
 
 * {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-nav {
-  display: flex;
-  flex: auto;
-  justify-content: space-between;
-  padding: 15px;
-  margin-top: -25px;
-}
-
-header p {
-  position: relative;
-  left: 75%;
 }
 
 body {
@@ -33,27 +20,6 @@ body {
   color: var(--dark);
   line-height: 1.5;
   font-size: 16px;
-}
-
-.post a{
-  color: #000000
-}
-
-#dashboard {
-  color: var(--dark);
-}
-
-/* .signup-form-div{
-  margin-top: px;
-} */
-
-.signup-footer{
-
-  margin-top: px;
-}
-
-.login-footer-div{
-  margin-top: 130PX;
 }
 
 h1,
@@ -267,7 +233,7 @@ form {
 }
 
 .hero {
-  padding: 1.5% 4%;
+  padding: 3% 4%;
   background-color: var(--dark);
   color: var(--primary);
 }
@@ -280,21 +246,13 @@ form {
 #logout,
 #sign-up,
 #home,
-#dashboard{
-  display: inline;
-  padding: 1px 10px 1px 10px;
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: var(--secondary);
-
-}
-
+#dashboard,
 #edit-post {
   display: inline;
   padding: 4px 40px 4px 40px;
   font-size: 1.2rem;
   text-decoration: none;
-  color: #000000;
+  color: var(--secondary);
 
 }
 
@@ -424,8 +382,6 @@ footer {
   font-size: 110%;
 }
 
-.end{ margin-top: 25px;}
-
 
 /* CARDS */
 
@@ -433,10 +389,6 @@ footer {
   margin: 0 0 20px 0;
   border: 3px solid var(--dark);
   border-radius: var(--border-radius);
-}
-
-.login-footer-div{
-  margin-top: 50px;
 }
 
 .card-header {
@@ -581,7 +533,7 @@ footer {
   flex: 0 0 calc(100% * 10 / 12 - 2%);
 }
 
-.lcol-11 {
+.col-11 {
   flex: 0 0 calc(100% * 11 / 12 - 2%);
 }
 
