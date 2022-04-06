@@ -1,0 +1,3 @@
+Drop DATABASE IF EXISTS osk_db ;
+
+CREATE DATABASE osk_db ;

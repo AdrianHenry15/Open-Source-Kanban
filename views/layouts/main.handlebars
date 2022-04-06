@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>Open Source Kanban</title>
+</head>
+
+<body class="wrapper flex-column min-100-vh">
+    <header class="hero">
+        <nav>
+            {{#if loggedIn}}
+            <a class="hvr-float" id="home" href="/">Home</a>
+            <a class="hvr-float" id="dashboard" href="/dashboard">Dashboard</a>
+            <a class="hvr-float" id="logout" href="/login">Logout</a>
+            {{else}}
+            <a class="hvr-float" id="login" href="/login">Login</a>
+            <a class="hvr-float" id="login" href="/signup">Sign-Up</a>
+            {{/if}}
+        </nav>
+        <h1 class="app-title hvr-skew">
+            <a id="osk-link" href="/"> Open Source Kanban</a>
+        </h1>
+
+        {{#if loggedIn}}
+        <p id="hdr-quote" class="hvr-hang">free your mind...</p>
+        {{else}}
+        <p class="hvr-hang">Zero Limits In An Open Mind</p>
+        {{/if}}
+
+    </header>
+
+    <main>
+        {{{ body }}}
+    </main>
+    <footer>
+        Thanks for visiting!
+    </footer>
+    </div>
+    {{#if loggedIn}}
+    <script src="/javascript/logout.js"></script>
+    {{/if}}
+</body>
+
+</html>
