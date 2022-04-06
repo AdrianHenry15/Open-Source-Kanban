@@ -53,7 +53,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // all routes as defined in controllers folder
-app.use(require('./controllers/'));
+var req = require('./controllers/')
+app.use(req);
 
 // turn on connection to db then to server
 // force: true to reset db and clear all values, updating any new relationships
