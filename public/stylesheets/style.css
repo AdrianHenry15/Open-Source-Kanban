@@ -337,7 +337,7 @@ li {
 }
 
 .app-title:hover {
-  box-shadow: inset 100px 100px 0 0 #488286;
+  box-shadow: inset 100px 0 100px 0 #488286;
   color: white;
 }
 
