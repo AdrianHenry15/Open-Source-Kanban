@@ -1,5 +1,4 @@
-
-#Open Source Kanban
+# Open Source Kanban
 
 Open Source Kanban or 'Osk' is a social platform for creative minds to collaborate and create a functioning application using a variety of ideas. Whether old or new, these ideas can be enhanced to be the next Facebook or maybe even better.
 
