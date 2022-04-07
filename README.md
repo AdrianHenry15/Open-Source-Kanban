@@ -14,7 +14,9 @@ Open Source Kanban or 'Osk' is a social platform for creative minds to collabora
 https://oskdb.herokuapp.com/
 
 ![osk1](https://user-images.githubusercontent.com/92061319/162123633-db0a3e63-58b3-47ce-b33a-bd6e66df7e53.png)
+
 ![osk2](https://user-images.githubusercontent.com/92061319/162123667-c12f96ad-d02b-4763-b3ea-f9c967e0e206.png)
+
 ![osk3](https://user-images.githubusercontent.com/92061319/162123691-689b5d42-a88e-426b-ac9b-8077c2fe03bf.png)
 
 
